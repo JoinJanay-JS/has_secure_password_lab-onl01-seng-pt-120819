@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
- # efore_action :require_logged_in
+ before_action :authenticate_user 
   
   def home
     
